@@ -78,7 +78,7 @@ export default function Login() {
       <button onClick={handleLogout}>로그아웃</button>
       <button onClick={handleGoogleLogin}>Google 로그인</button>
       <div>로그인 상태: {loginState} / 사용자 이메일: {currentUser?.email || "없음"}</div>
+
     </div>
   );
 }
-
